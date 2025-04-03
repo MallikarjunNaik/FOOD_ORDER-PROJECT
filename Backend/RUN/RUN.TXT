@@ -1,0 +1,13 @@
+How to Run the Project:
+
+Install Python (version 3.7.6) and make sure to add it to the PATH during installation.
+Open a terminal and run the following commands:
+pip install django==3.0.5
+pip install django-widget-tweaks
+pip install xhtml2pdf
+
+Navigate to the project folder in your terminal and execute:
+py manage.py makemigrations
+py manage.py migrate
+py manage.py runserver
+Visit http://127.0.0.1:8000/ in your browser.
